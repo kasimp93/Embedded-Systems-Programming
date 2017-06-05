@@ -1,0 +1,26 @@
+-------------------------------------------------------------------
+Part 1
+-------------------------------------------------------------------
+
+FFT original 
+Total: 55574398
+fff_float: 4527953
+
+FFT optimized
+Total: 55542927
+fff_float: 4496482
+
+Inverse FFT original
+Total: 55943948
+fff_float: 4641812
+
+Inverse FFT optimized
+Total: 55853589
+fff_float: 4551453
+
+My optimization results speedup because I used loop unrolling and inline function in the fft_float function. Replaced conditional statement with if else. 
+
+-------------------------------------------------------------------
+Part 2 in pdf file hw3_part2_answer
+-------------------------------------------------------------------
+

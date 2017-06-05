@@ -1,0 +1,15 @@
+
+
+
+mknod /dev/mygpio c 61 0
+insmod /home/mygpio.ko 
+
+echo "f2" > /dev/mygpio
+
+cat /dev/mygpio
+
+
+
+
+
+
